@@ -9,6 +9,7 @@
 Application web et mobile permettant d'explorer la biodiversité des insectes et d'en apprendre davantage sur leur rôle crucial dans l'écosystème. 
 Le but est de photographier et de collectionner des insectes trouvés dans l'environnement autour de l'utilisateur, et de compléter petit à petit le catalogue et les catégories d'insectes proposés sur l'application. Un utilisateur au catalogue complet d'insectes référencé sur notre application ainsi qu'à son profil avec tous les insectes collectionnés et ses informations personnelles. Il pourra également utiliser un bouton "photo" dans le menu pour continuer sa collection.
 
+
 ## Design système retenu : 
 
 
@@ -22,12 +23,7 @@ Ainsi, nous avons choisi le design system “Base” de Uber que nous considéro
    - Page minimaliste mettant en avant le titre de l'application et des éléments décoratifs illustrant le thème.
    - Bouton d'activation pour démarrer l'utilisation ou visualiser la collection une fois connecté.
    - Ecrans simple et clean, mise en avant de la thématique de l’application grâce aux vecteurs d’insectes sur la page et au bouton minimaliste. Nous cherchons à mettre en avant le style graphique et l’application elle-même.
-
-et des liens très dit “enfantin” avec un seul bouton pour commencer à utiliser l’application et mettre à l’avant le style graphique et l’application elle-même. 
-
 Pas d’animations en version desktop car cette page est le point d’entrée de l’application. Nous intégrerons cependant une animation sur la version mobile afin de dynamiser la première impression de l’utilisateur lors de l’ouverture de l’application. 
-
-les animations Pour PC y’en a pas pour cette page car on la considère comme le point d”entrée cependant pour le mobile y aura un pop over pour rendre le feel “natif” comme les applications du genre Instagram.
 
 2. **Écran du catalogue :**
    - Utilise des cartes pour afficher les insectes avec des options de tri par type et taille.
@@ -64,5 +60,3 @@ Les maquettes finales ont été élaborées en utilisant les design systems de B
 
 - base (choisi) (safwa) : [InsectiDex_base](https://www.figma.com/file/NfudSTFo1nVCHj6POoCjZA/InsectiDex_base?type=design&node-id=81%3A95774&mode=design&t=eVJ8XIbOk5PQHMzj-1)
 - fluent (mohammed)  : [InsectiDex_fluent](https://www.figma.com/file/KxrfHTcQ61DZqhiUxeWRxP/InsectiDex_fluent?type=design&node-id=0%3A1&mode=design&t=iQWoLjAVvLuuLdBN-1)
-
-
