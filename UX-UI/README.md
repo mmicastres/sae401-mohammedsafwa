@@ -48,5 +48,5 @@ Le menu est visible, offrant une expérience intuitive avec peu d'éléments à 
 
 Les maquettes finales ont été élaborées en utilisant les design systems de base et fluent. Finalement, le choix s'est porté sur le design system de base. Les maquettes peuvent être consultées ci-dessous : 
 
-- base : [InsectiDex_base](https://www.figma.com/file/NfudSTFo1nVCHj6POoCjZA/InsectiDex_base?type=design&node-id=81%3A95774&mode=design&t=M5Fkr7CyEDX9qHs1-1)
-- fluent : [InsectiDex_fluent](https://www.figma.com/file/KxrfHTcQ61DZqhiUxeWRxP/InsectiDex_fluent?type=design&node-id=0%3A1&mode=design&t=4Gu8uJrcWsVtRAMI-1)
+- base : [InsectiDex_base](https://www.figma.com/file/NfudSTFo1nVCHj6POoCjZA/InsectiDex_base?type=design&node-id=81%3A95774&mode=design&t=eVJ8XIbOk5PQHMzj-1)
+- fluent : [InsectiDex_fluent](https://www.figma.com/file/KxrfHTcQ61DZqhiUxeWRxP/InsectiDex_fluent?type=design&node-id=0%3A1&mode=design&t=iQWoLjAVvLuuLdBN-1)
