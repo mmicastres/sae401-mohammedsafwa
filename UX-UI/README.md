@@ -38,7 +38,7 @@ En termes d’animations, il n’y en aura pas sur PC mais sur mobile il y aura 
 
 4. **Écran de la collection de l’utilisateur :**
    - Présente la collection d'insectes sous forme de galerie avec une barre de progression (excepté sur mobile).
-   - Permet à l'utilisateur de suivre sa progression dans la collection.
+   - Permet à l'utilisateur de suivre sa progression dans la collection et aussi savoir quand il a fait l'acquisition.
    - Très similaire à l’écran précédent dans son layout, cet écran intègre le minimum d’information de manière simple et limpide respectant le design system et l’image “simple” et “friendly” de base.
 
 5. **Écran de l’espace utilisateur :**
