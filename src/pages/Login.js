@@ -89,7 +89,7 @@ const Login = () => {
                     </Button>
                   </Block>
                   <ParagraphLarge display="flex" justifyContent="center">
-                    Not a member? <a href="/register">Register!</a>
+                    Not a member? <a onClick={() => navigate('/register')}> Register!</a>
                   </ParagraphLarge>
                 </StyledBody>
               </Card>
