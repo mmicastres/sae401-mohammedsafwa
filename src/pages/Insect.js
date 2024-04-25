@@ -8,7 +8,6 @@ import { HeadingXXLarge, ParagraphLarge } from 'baseui/typography';
 import { Check, Delete, Overflow, TriangleUp } from 'baseui/icon';
 
 const Insect = () => {
-  window.showAdmin();
   const { id } = useParams();
   const [insect, setInsect] = useState(null);
   const navigate = useNavigate();
