@@ -3,6 +3,7 @@ import { useStyletron } from 'baseui';
 import { Button, SIZE } from 'baseui/button';
 import { Input } from 'baseui/input';
 import { Card, StyledBody, StyledAction, StyledThumbnail } from 'baseui/card';
+import { Toast, KIND, ToasterContainer } from "baseui/toast";
 import axios from 'axios';
 
 const Admin = () => {
@@ -15,6 +16,9 @@ const Admin = () => {
   const [height, setHeight] = useState('');
   const [weight, setWeight] = useState('');
   const [photoFile, setPhotoFile] = useState(null);
+  const [toastMsg, setToastMsg] = useState('');
+  const [showToast, setShowToast] = useState(false);
+
 
   useEffect(() => {
     fetchInsects();
@@ -51,10 +55,14 @@ const Admin = () => {
       setName('');
       setScientificName('');
       setPhotoFile(null);
+      setToastMsg('Insect added successfully');
+      setShowToast(true);
     })
     .catch(error => {
       console.error("Error adding insect:", error);
       console.log(error.response.data);
+      setToastMsg(error.response.data.error);
+      setShowToast(true);
     });
   };
 
@@ -64,8 +72,8 @@ const Admin = () => {
              Authorization: `Bearer ${token}`
           }
     })
-      .then(() => fetchInsects())
-      .catch(error => console.error("Error deleting insect:", error));
+      .then(() => {fetchInsects(); setToastMsg('Insect deleted successfully'); setShowToast(true);})
+      .catch(error => {console.error("Error deleting insect:", error); setToastMsg(error.message); setShowToast(true);});
   };
 
   const handleFileChange = (event) => {
@@ -79,6 +87,13 @@ const Admin = () => {
   return (
     <div className={css({ padding: '20px' })}>
       <div className={css({ marginBottom: '20px', display: 'flex', flexDirection: 'column', alignItems: 'center' })}>
+      {showToast && (
+        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+          <ToasterContainer>
+            <Toast kind={KIND.info}>{toastMsg}</Toast>
+          </ToasterContainer>
+        </div>
+      )}
         <Input
           value={name}
           onChange={e => setName(e.target.value)}
