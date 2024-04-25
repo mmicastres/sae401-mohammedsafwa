@@ -1,0 +1,27 @@
+
+    .dragonfly {
+      position: absolute;
+      top: 0;
+      bottom: 10;
+      left: 85%; 
+      height: 15vh;
+    }
+    .butterfly {
+      position: absolute;
+      top: 90%; 
+      left: 5%; 
+      height: 10vh;
+    }
+    @media (max-width: 768px) {
+      .dragonfly, .butterfly {
+        height: 10vh;
+        left: 50%; 
+        transform: translateX(-50%);
+      }
+      .dragonfly {
+        top: 5%; 
+      }
+      .butterfly {
+        top: 90%; 
+      }
+    }

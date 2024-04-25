@@ -3,16 +3,18 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@fluentui/react-components": "^9.46.4",
-    "@material/web": "^1.2.0",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
-    "daisyui": "^4.6.2",
+    "axios": "^1.6.8",
+    "baseui": "next",
+    "eslint-plugin-baseui": "^13.0.0",
     "react": "^18.2.0",
-    "react-daisyui": "^5.0.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "6",
     "react-scripts": "5.0.1",
+    "styletron-engine-monolithic": "^1.0.0",
+    "styletron-react": "^6.1.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -38,8 +40,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "tailwindcss": "^3.4.1"
   }
 }

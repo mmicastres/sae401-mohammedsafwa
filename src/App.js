@@ -1,19 +1,27 @@
+import logo from './logo.svg';
 import './App.css';
-import axios from 'axios';
-import React, { useEffect, useState } from 'react';
-import {
-  FluentProvider,
-  webLightTheme,
-  Button
-} from "@fluentui/react-components";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 
 
 function App() {
   return (
-    <FluentProvider theme={webLightTheme}>
-              <Button>Hello Fluent UI React</Button>
-    </FluentProvider>
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+    </div>
   );
 }
 
