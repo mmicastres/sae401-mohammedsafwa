@@ -111,7 +111,7 @@ const Register = () => {
                     </Button>
                   </Block>
                   <ParagraphLarge display="flex" justifyContent="center">
-                  Already a member ? <a href="/login"> Sign in</a>
+                  Already a member ? <a onClick={() => navigate('/login')}> Sign in</a>
                   </ParagraphLarge>
                 </StyledBody>
               </Card>
