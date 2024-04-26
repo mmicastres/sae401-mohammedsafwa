@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6f7f4a3d.css",
+    "main.js": "/static/js/main.f8762fda.js",
+    "static/media/login.png": "/static/media/login.c12ac3c37919cf38f9d4.png",
+    "static/media/register.png": "/static/media/register.57023b2ac9258afb9949.png",
+    "static/media/dragonfly.png": "/static/media/dragonfly.3584744ec933d88db2d3.png",
+    "static/media/butterfly.png": "/static/media/butterfly.8d2963909842dba21015.png",
+    "index.html": "/index.html",
+    "main.6f7f4a3d.css.map": "/static/css/main.6f7f4a3d.css.map",
+    "main.f8762fda.js.map": "/static/js/main.f8762fda.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6f7f4a3d.css",
+    "static/js/main.f8762fda.js"
+  ]
+}
